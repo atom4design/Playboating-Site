@@ -1,0 +1,644 @@
+body {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 50px;
+  margin: 0;
+  background-color: #F1ECC3;
+}
+
+h1 {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 50px;
+  margin: auto;
+  text-align: center;
+  color: #515E63;
+  padding-top: 90px;
+}
+
+h2 {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 40px;
+  margin: auto;
+  text-align: center;
+  color: #515E63;
+  padding-top: 30px;
+}
+
+h3 {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 30px;
+  margin: auto;
+  text-align: center;
+  color: #515E63;
+  padding-top: 30px;
+}
+
+hr {
+  height: 3px;
+  width: 800px;
+  color: #515E63;
+  background-color: #515E63;
+}
+
+.welcome-text {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 25px;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: #57837B;
+}
+
+.how-to {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 25px;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: #57837B;
+}
+
+/*** Top Nav ***/
+.logo-img {
+  position: absolute;
+  margin: auto;
+  width: 4%;
+  padding-top: 11px;
+  padding-left: 40px;
+}
+
+.topnav {
+  background-color: #515E63;
+  min-height: 75px;
+  width: 100%;
+}
+
+.topnav a {
+  color: #F1ECC3;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 15px;
+  padding-right: 30px;
+  display: inline;
+  float: right;
+  min-height: 60px;
+}
+
+.topnav a:hover {
+  color: white;
+}
+
+/*** Content Selection ***/
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+
+.box-img {
+  width: 300px;
+  height: 200px;
+  border-style: solid;
+  border-color: #515E63
+}
+
+.ctext {
+  display: flex;
+  font-family: 'Titillium Web', sans-serif;
+  color: #515E63;
+  font-size: 25px;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.nctext {
+  margin-top: 0px;
+}
+
+.ptctext {
+  margin-top: 0px;
+}
+
+.gctext {
+  margin-top: 0px;
+}
+
+/**Bottom Container**/
+.bottom-container {
+  background-color: #515E63;
+  padding: 1px;
+  margin-top: 90px;
+}
+
+.copy-right {
+  color: #f7f3e9;
+  font-size: 20px;
+  padding: 1px;
+  text-align: center;
+}
+
+/*** New to the Sport **/
+.intro-video {
+  padding-top: 50px;
+  padding-left: 380px;
+}
+
+.hooked-video {
+  padding-top: 50px;
+  padding-left: 100px;
+}
+
+.box-new {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+
+.nbox-img {
+  width: 300px;
+  height: 200px;
+  border-style: solid;
+  border-color: #515E63;
+  border-radius: 28%;
+}
+
+.mctext {
+  display: flex;
+  font-family: 'Titillium Web', sans-serif;
+  color: #515E63;
+  font-size: 25px;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.ppctext {
+  padding-left: 20px;
+  margin-top: 0px;
+}
+
+.sctext {
+  padding-left: 52px;
+  margin-top: 0px;
+}
+
+.lctext {
+  padding-left: 30px;
+  margin-top: 0px;
+}
+
+/**** Playboating Tricks *****/
+.pt-text {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 40px;
+  margin: auto;
+  text-align: center;
+  color: #515E63;
+  padding-top: 10px;
+}
+
+.twelcome-text {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 25px;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: #57837B;
+  text-align: center;
+}
+
+.box-tricks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 20px
+}
+
+.iframe-wrapper_title {
+  ont-family: 'Titillium Web', sans-serif;
+  font-size: 25px;
+  font-weight: bolder;
+  color: #515E63;
+  text-align: center;
+}
+
+.version-one h2 {
+  padding-top: 0px;
+}
+
+.version-one hr {
+  margin-top: 40px;
+}
+
+/**** Gear Landing Page ****/
+.titletext h3 {
+  padding-bottom: 5px;
+}
+
+.gear-img {
+  width: 380px;
+  float: left;
+  border: solid;
+  border-color: #515E63;
+  margin-left: 60px;
+}
+
+.jit-row {
+  text-align: center;
+  padding-bottom: 55px;
+}
+
+.jit-row h3 {
+  padding-top: 90px;
+}
+
+.jit-row p {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 30px;
+  color: #515E63;
+  text-align: left;
+  margin-left: 500px;
+  margin-right: 100px;
+}
+
+.safe-row {
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.safe-row h3 {
+  padding-top: 90px;
+}
+
+.safe-row p {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 30px;
+  color: #515E63;
+  text-align: left;
+  margin-left: 500px;
+  margin-right: 100px;
+}
+
+.wear-row {
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.wear-row h3 {
+  padding-top: 90px;
+}
+
+.wear-row p {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 30px;
+  color: #515E63;
+  text-align: left;
+  margin-left: 500px;
+  margin-right: 100px;
+}
+
+/**** Boat and Paddles Page ****/
+.titletext h3 {
+  padding-bottom: 5px;
+}
+
+.gear-img {
+  width: 380px;
+  height: 380px;
+  float: left;
+  border: solid;
+  border-color: #515E63;
+  margin-left: 60px;
+}
+
+.jit-row1 {
+  padding-bottom: 10px;
+}
+
+.jit-row1 h3 {
+  padding-top: 30px;
+  text-align: center;
+  margin-right: 100px;
+  font-size: 35px;
+}
+
+.jit-row1 li {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 30px;
+  color: #515E63;
+  text-align: left;
+  margin-left: 500px;
+  margin-right: 100px;
+}
+
+.jit-row1 a {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 30px;
+  color: #515E63;
+  text-decoration: none;
+}
+
+.paddle-row1 {
+  padding-bottom: 5px;
+}
+
+.paddle-row1 h3 {
+  padding-top: 30px;
+  text-align: center;
+  margin-right: 100px;
+  font-size: 35px;
+}
+
+.paddle-row1 li {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 30px;
+  color: #515E63;
+  text-align: left;
+  margin-left: 500px;
+  margin-right: 100px;
+}
+
+.paddle-row1 a {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 30px;
+  color: #515E63;
+  text-decoration: none;
+}
+
+/**** Safetygear Page *****/
+.titletext h3 {
+  padding-bottom: 5px;
+}
+
+.gear-img {
+  width: 380px;
+  height: 380px;
+  float: left;
+  border: solid;
+  border-color: #515E63;
+  margin-left: 60px;
+}
+
+.pfd-row1 {
+  padding-bottom: 10px;
+}
+
+.pfd-row1 h3 {
+  padding-top: 30px;
+  text-align: center;
+  margin-right: 100px;
+  font-size: 35px;
+}
+
+.pfd-row1 li {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 30px;
+  color: #515E63;
+  text-align: left;
+  margin-left: 500px;
+  margin-right: 100px;
+}
+
+.pfd-row1 a {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 30px;
+  color: #515E63;
+  text-decoration: none;
+}
+
+.helmets-row1 {
+  padding-bottom: 0px;
+}
+
+.helmets-row1 h3 {
+  padding-top: 30px;
+  text-align: center;
+  margin-right: 100px;
+  font-size: 35px;
+}
+
+.helmets-row1 p {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 30px;
+  color: #515E63;
+  text-align: center;
+  margin-left: 500px;
+  margin-right: 100px;
+}
+
+.helmets-row1 li {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 30px;
+  color: #515E63;
+  text-align: left;
+  margin-left: 500px;
+  margin-right: 100px;
+}
+
+.helmets-row1 a {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 30px;
+  color: #515E63;
+  text-decoration: none;
+}
+
+.other-row1 {
+  padding-bottom: 5px;
+}
+
+.other-row1 h3 {
+  padding-top: 30px;
+  text-align: center;
+  margin-right: 100px;
+  font-size: 35px;
+}
+
+.other-row1 li {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 30px;
+  color: #515E63;
+  text-align: left;
+  margin-left: 500px;
+  margin-right: 100px;
+}
+
+.other-row1 a {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 30px;
+  color: #515E63;
+  text-decoration: none;
+}
+
+/*** Water Wear ***/
+.titletext h3 {
+  padding-bottom: 5px;
+}
+
+.gear-img {
+  width: 380px;
+  height: 380px;
+  float: left;
+  border: solid;
+  border-color: #515E63;
+  margin-left: 60px;
+}
+
+.drysuit {
+  margin: 0px;
+  padding-bottom: 13px;
+}
+
+.drysuit h3 {
+  padding-top: 30px;
+  text-align: center;
+  margin-right: 100px;
+  font-size: 35px;
+}
+
+.drysuit li {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 30px;
+  color: #515E63;
+  text-align: left;
+  margin-left: 500px;
+  margin-right: 100px;
+
+}
+
+.drysuit a {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 30px;
+  color: #515E63;
+  text-decoration: none;
+}
+
+.drytop {
+  margin: 0px;
+  padding-bottom: 13px;
+}
+
+.drytop h3 {
+  padding-top: 30px;
+  text-align: center;
+  margin-right: 100px;
+  font-size: 35px;
+}
+
+.drytop li {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 30px;
+  color: #515E63;
+  text-align: left;
+  margin-left: 500px;
+  margin-right: 100px;
+}
+
+.drytop a {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 30px;
+  color: #515E63;
+  text-decoration: none;
+}
+
+.booties {
+  margin: 0px;
+  padding-bottom: 35px;
+}
+
+.booties h3 {
+  padding-top: 30px;
+  text-align: center;
+  margin-right: 100px;
+  font-size: 35px;
+}
+
+.booties li {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 30px;
+  color: #515E63;
+  text-align: left;
+  margin-left: 500px;
+  margin-right: 100px;
+}
+
+.booties a {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 30px;
+  color: #515E63;
+  text-decoration: none;
+}
+
+.wateracc {
+  margin: 0px;
+  padding-bottom: 35px;
+}
+
+.wateracc h3 {
+  padding-top: 30px;
+  text-align: center;
+  margin-right: 100px;
+  font-size: 35px;
+}
+
+.wateracc li {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 30px;
+  color: #515E63;
+  text-align: left;
+  margin-left: 500px;
+  margin-right: 100px;
+}
+
+.wateracc a {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 30px;
+  color: #515E63;
+  text-decoration: none;
+}
+/*** Location ***/
+.titletext h3 {
+  padding-bottom: 5px;
+}
+
+.gear-img {
+  width: 380px;
+  height: 380px;
+  float: left;
+  border: solid;
+  border-color: #515E63;
+  border-radius: 10%;
+  margin-left: 60px;
+}
+.playpark h3 {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 28px;
+  color: #515E63;
+  font-weight: 200;
+  text-align: left;
+  padding-bottom: 45px;
+  margin-left: 500px;
+  margin-right: 100px;
+}
+
+.surfwaves h3 {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 28px;
+  color: #515E63;
+  font-weight: 200;
+  text-align: left;
+  padding-bottom: 45px;
+  margin-left: 500px;
+  margin-right: 100px;
+}
+
+.lake h3 {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 28px;
+  color: #515E63;
+  font-weight: 200;
+  text-align: left;
+  padding-bottom: 45px;
+  margin-left: 500px;
+  margin-right: 100px;
+}
