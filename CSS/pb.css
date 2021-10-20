@@ -143,13 +143,13 @@ hr {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 .hooked-video {
     display: flex;
     justify-content: space-around;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .box-new {
