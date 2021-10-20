@@ -140,8 +140,9 @@ hr {
 
 /*** New to the Sport **/
 .intro-video {
-  padding-top: 50px;
-  padding-left: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .hooked-video {
