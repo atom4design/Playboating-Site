@@ -59,11 +59,11 @@ hr {
 
 /*** Top Nav ***/
 .logo-img {
-  position: absolute;
-  margin: auto;
-  width: 4%;
-  padding-top: 11px;
-  padding-left: 40px;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -6px;
 }
 
 .topnav {
@@ -147,9 +147,9 @@ hr {
 }
 
 .hooked-video {
-    display: flex;
-    justify-content: space-around;
-    padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
 }
 
 .box-new {
@@ -506,7 +506,6 @@ hr {
   text-align: left;
   margin-left: 500px;
   margin-right: 100px;
-
 }
 
 .drysuit a {
@@ -599,6 +598,7 @@ hr {
   color: #515E63;
   text-decoration: none;
 }
+
 /*** Location ***/
 .titletext h3 {
   padding-bottom: 5px;
@@ -613,6 +613,7 @@ hr {
   border-radius: 10%;
   margin-left: 60px;
 }
+
 .playpark h3 {
   font-family: 'Titillium Web', sans-serif;
   font-size: 28px;
