@@ -148,12 +148,7 @@ hr {
 .hooked-video {
     display: flex;
     align-items: center;
-<<<<<<< HEAD
-    justify-content: space-around;
-=======
-    justify-content: center;
-    padding: 10px;
->>>>>>> 152acbc774ad524309c8b4ab0692617207842b3b
+  
 }
 
 .box-new {
