@@ -600,9 +600,6 @@ hr {
 }
 
 /*** Location ***/
-.titletext h3 {
-  padding-bottom: 5px;
-}
 
 .gear-img {
   width: 380px;
@@ -614,35 +611,63 @@ hr {
   margin-left: 60px;
 }
 
+.playpark {
+  margin: 0px;
+}
+
 .playpark h3 {
   font-family: 'Titillium Web', sans-serif;
-  font-size: 28px;
+  font-size: 35px;
   color: #515E63;
-  font-weight: 200;
+  text-align: center;
+}
+
+.playpark p {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 30px;
+  color: #515E63;
   text-align: left;
-  padding-bottom: 45px;
   margin-left: 500px;
   margin-right: 100px;
+}
+
+.surfwaves {
+  margin: 0px;
 }
 
 .surfwaves h3 {
   font-family: 'Titillium Web', sans-serif;
-  font-size: 28px;
+  font-size: 35px;
   color: #515E63;
-  font-weight: 200;
+  text-align: center;
+}
+
+.surfwaves p {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 30px;
+  color: #515E63;
   text-align: left;
-  padding-bottom: 45px;
   margin-left: 500px;
   margin-right: 100px;
 }
 
+.lake {
+  margin: 0px;
+  padding-bottom: 5px;
+}
+
 .lake h3 {
   font-family: 'Titillium Web', sans-serif;
-  font-size: 28px;
+  font-size: 35px;
   color: #515E63;
-  font-weight: 200;
+  text-align: center;
+}
+
+.lake p {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 30px;
+  color: #515E63;
   text-align: left;
-  padding-bottom: 45px;
   margin-left: 500px;
   margin-right: 100px;
 }
